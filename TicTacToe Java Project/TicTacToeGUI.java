@@ -39,7 +39,7 @@ public class TicTacToeGUI {
 
     
     private void buttonClick(int index) {
-        if (!buttons[index].getText().equals("")) return; // already taken
+        if (!buttons[index].getText().equals("")) return; 
 
         if (player1Turn) {
             buttons[index].setText("X");
@@ -104,3 +104,4 @@ public class TicTacToeGUI {
         new TicTacToeGUI();
     }
 }
+
